@@ -8,3 +8,370 @@ Started GET "/" for ::1 at 2015-11-16 16:12:00 -0600
 Processing by Rails::WelcomeController#index as HTML
   Rendered /Users/admin/.rvm/gems/ruby-2.1.2/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
 Completed 200 OK in 48ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+Started GET "/hello_world" for ::1 at 2021-12-30 15:09:58 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/hello_world"):
+  
+actionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.1) lib/rails/engine.rb:522:in `call'
+rack (2.2.3) lib/rack/handler/webrick.rb:95:in `service'
+/Users/evanjeffries/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/evanjeffries/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/evanjeffries/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.0ms)
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.4ms)
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (49.0ms)
+Started GET "/hello_world" for ::1 at 2021-12-30 15:15:47 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/hello_world"):
+  
+actionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.1) lib/rails/engine.rb:522:in `call'
+rack (2.2.3) lib/rack/handler/webrick.rb:95:in `service'
+/Users/evanjeffries/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/evanjeffries/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/evanjeffries/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.4ms)
+Started GET "/hello_world" for ::1 at 2021-12-30 15:15:59 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/hello_world"):
+  
+actionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.1) lib/rails/engine.rb:522:in `call'
+rack (2.2.3) lib/rack/handler/webrick.rb:95:in `service'
+/Users/evanjeffries/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/evanjeffries/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/evanjeffries/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.0ms)
+Started GET "/hello_world" for ::1 at 2021-12-30 15:19:04 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/hello_world"):
+  
+actionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.1) lib/rails/engine.rb:522:in `call'
+rack (2.2.3) lib/rack/handler/webrick.rb:95:in `service'
+/Users/evanjeffries/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/evanjeffries/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/evanjeffries/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.1ms)
+Started GET "/hello_world" for ::1 at 2021-12-30 15:22:38 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/hello_world"):
+  
+actionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.1) lib/rails/engine.rb:522:in `call'
+rack (2.2.3) lib/rack/handler/webrick.rb:95:in `service'
+/Users/evanjeffries/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/evanjeffries/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/evanjeffries/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered collection of /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (3.1ms)
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (36.7ms)
+Started GET "/hello_world" for ::1 at 2021-12-30 15:22:40 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/hello_world"):
+  
+actionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.1) lib/rails/engine.rb:522:in `call'
+rack (2.2.3) lib/rack/handler/webrick.rb:95:in `service'
+/Users/evanjeffries/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/evanjeffries/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/evanjeffries/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered collection of /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (0.8ms)
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.8ms)
+Started GET "/hello_world" for ::1 at 2021-12-30 15:33:53 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/hello_world"):
+  
+actionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.1) lib/rails/engine.rb:522:in `call'
+rack (2.2.3) lib/rack/handler/webrick.rb:95:in `service'
+/Users/evanjeffries/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/evanjeffries/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/evanjeffries/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered collection of /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (0.8ms)
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.2ms)
+Started GET "/hello_world" for ::1 at 2021-12-30 15:34:06 -0600
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/greeting, application/greeting with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/evanjeffries/Flatiron/code/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/static_controller.rb:4:in `hello_world'
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.5ms)
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (23.2ms)
+Started GET "/hello_world" for ::1 at 2021-12-30 15:34:48 -0600
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/greeting, application/greeting with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/evanjeffries/Flatiron/code/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/static_controller.rb:4:in `hello_world'
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.4ms)
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (18.0ms)
+Started GET "/hello_world" for ::1 at 2021-12-30 15:34:51 -0600
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/greeting, application/greeting with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/evanjeffries/Flatiron/code/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/static_controller.rb:4:in `hello_world'
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (11.9ms)
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (26.7ms)
+Started GET "/hello_world" for ::1 at 2021-12-30 15:36:04 -0600
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/greeting, application/greeting with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/evanjeffries/Flatiron/code/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/static_controller.rb:4:in `hello_world'
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (17.6ms)
+Started GET "/hello_world" for ::1 at 2021-12-30 15:36:07 -0600
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/greeting, application/greeting with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/evanjeffries/Flatiron/code/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/static_controller.rb:4:in `hello_world'
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.5ms)
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (24.7ms)
+Started GET "/hello_world" for ::1 at 2021-12-30 15:42:45 -0600
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/hello_world, application/hello_world with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/evanjeffries/Flatiron/code/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/static_controller.rb:4:in `hello_world'
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (23.3ms)
+Started GET "/hello_world" for ::1 at 2021-12-30 15:46:28 -0600
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/hello_world, application/hello_world with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/evanjeffries/Flatiron/code/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/static_controller.rb:4:in `hello_world'
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.1ms)
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/evanjeffries/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (32.8ms)
+Started GET "/hello_world" for ::1 at 2021-12-30 15:48:21 -0600
+Processing by StaticController#hello_world as HTML
+  Rendering static/hello_world.html.erb within layouts/application
+  Rendered static/hello_world.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 455ms (Views: 454.7ms | ActiveRecord: 0.0ms)
+
+
